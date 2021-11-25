@@ -76,6 +76,9 @@
 
             <div class="card mb-3">
                 <div class="row g-0">
+                    <div class="col-md-4" id="systems-images-show">
+                        <img src="{{ asset('site_images/consrct.png') }}" class="img-fluid rounded-start" alt="...">
+                    </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h1 class="card-title"><strong class="put-gold">Analytics</strong> System</h1>
@@ -87,7 +90,7 @@
                             <p class="card-text"><small class="text-muted"><a href="{{ route('site.systems') }}">Read More</a></small></p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="systems-images-hide-small">
                         <img src="{{ asset('site_images/consrct.png') }}" class="img-fluid rounded-start" alt="...">
                     </div>
                 </div>
@@ -118,12 +121,15 @@
 
             <div class="card mb-3">
                 <div class="row g-0">
+                    <div class="col-md-4" id="systems-images-show">
+                        <img src="{{ asset('site_images/money0.jpeg') }}" class="img-fluid rounded-start" alt="...">
+                    </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h1 class="card-title"><strong class="put-gold">Investment</strong> Consultancy</h1>
                             For primed Industry Consultants
                             <p class="card-text">
-                                Firstcode Corporation pool of consultants across Africa and Asia are
+                                FirstCode Corporation pool of consultants across Africa and Asia are
                                 well versed in engagements involving Private-Private(PP) as well as Public-Private
                                 partnerships(PPP) in different fields.
 
@@ -133,7 +139,7 @@
                             <p class="card-text"><small class="text-muted"><a href="{{ route('site.systems') }}">Read More</a></small></p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="systems-images-hide-small">
                         <img src="{{ asset('site_images/money0.jpeg') }}" class="img-fluid rounded-start" alt="...">
                     </div>
                 </div>
@@ -147,7 +153,7 @@
         <div class="container" style="padding-top: 30px;">
             <h1 class="text-center put-grey">
                 About <strong class="put-red">Us</strong><br>
-                <span style="font-size: large;">Industrial Artificial Intelligence Backend Platform</span>
+                <span style="font-size: large; color: red;">Industrial Artificial Intelligence Backend Platform</span>
             </h1>
 
             <p>

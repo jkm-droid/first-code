@@ -55,12 +55,12 @@ about{
     color: white;
     width: 100%;
     position: relative;
-    background: url("../site_images/technology-impact-on-life-1024x566.jpg") top center;
+    background: url("../site_images/download.jpeg") top center;
     background-size: cover;
 }
 
 #about:before {
-    content: "";
+    /*content: "";*/
     background: rgba(238, 234, 234, 0.8);
     opacity: 0.9;
     position: absolute;
@@ -150,7 +150,7 @@ about{
 
 @media only screen and (max-width: 600px) {
     .main-content{
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .carousel-caption h1{
         font-size: large;
@@ -165,6 +165,13 @@ about{
     }
     .carousel-caption {
         height: 75%;
+    }
+
+    #systems-images-show{
+        display: block !important;
+    }
+    #systems-images-hide-small{
+        display: none;
     }
 }
 
@@ -181,7 +188,9 @@ about{
 #header{
     border-bottom: 1px solid goldenrod;
 }
-
+#systems-images-show{
+    display: none;
+}
 #footer {
     border-top: 2px solid goldenrod;
     color: black;
