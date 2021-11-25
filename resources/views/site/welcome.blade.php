@@ -1,6 +1,7 @@
 @extends('base.index')
 
 @section('content')
+    <div class="main-content">
     <!--carousel start-->
     <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -457,4 +458,5 @@
     <!---end our team--->
 
     <!----end site body/content-->
+    </div>
 @endsection

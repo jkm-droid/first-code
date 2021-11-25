@@ -1,4 +1,4 @@
-<div class="container fixed-top" id="header">
+<div class="fixed-top" id="header" style="background-color: lightgrey;">
     <nav class="navbar navbar-expand-lg navbar-inverse navbar-static-top navbar-light bg-none">
         <div class="container">
             <a class="navbar-brand" href="/">

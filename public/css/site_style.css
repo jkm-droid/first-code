@@ -149,6 +149,9 @@ about{
 }
 
 @media only screen and (max-width: 600px) {
+    .main-content{
+        padding-top: 70px;
+    }
     .carousel-caption h1{
         font-size: large;
     }
@@ -159,6 +162,9 @@ about{
 
     .carousel .image {
         max-height: 50vh;
+    }
+    .carousel-caption {
+        height: 75%;
     }
 }
 
@@ -171,6 +177,9 @@ about{
     .service-separator{
         margin: 0 0;
     }
+}
+#header{
+    border-bottom: 1px solid goldenrod;
 }
 
 #footer {
