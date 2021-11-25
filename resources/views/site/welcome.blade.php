@@ -10,7 +10,7 @@
         </ol>
         <div class="carousel-inner" id="myCarousel">
             <div class="carousel-item active">
-                <img class="d-block w-100 image" src="{{ asset('/site_images/Port.jpg') }}" alt="First slide">
+                <img class="d-block w-100 image" src="{{ asset('/site_images/port1.jpg') }}" alt="First slide">
                 <div class="carousel-caption">
                     <h1>Welcome to FirstCode Corporation</h1>
                     <h4 class="display-4 put-black">Unlocking Africa's unlimited possibilities through industrialisation</h4>
@@ -26,8 +26,7 @@
             <div class="carousel-item">
                 <img class="d-block w-100 image" src="{{ asset('/site_images/logistics3.jpg') }}" alt="Third slide">
                 <div class="carousel-caption">
-                    <h1>Providing</h1>
-                    <h1>Industrial Artificial Intelligence Backend Platform</h1>
+                    <h1>Providing Industrial Artificial Intelligence Backend Platform</h1>
                     <h4 class="display-4 put-black">An Integrated Industrial Information Centre for Africa</h4>
                 </div>
             </div>
