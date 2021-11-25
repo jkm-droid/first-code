@@ -18,6 +18,7 @@
 
     <!-- Vendor CSS Files -->
     <link href="{{ asset( 'assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset( 'assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <title>FirstCode Corporation</title>
 </head>
 <body>

@@ -19,18 +19,22 @@
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Useful Links</h4>
+                <div class="col-lg-4 col-md-6 footer-links">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><i class="bx bx-chevron-right bx-xs"></i> <a href="https://funds.firstcodesystems.com/welcome/" target="_blank">FirstCode Finance Systems</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://industrialisingafrica.com/" target="_blank">Industrialising Africa Publication</a></li>
+                    </ul>
 
                 </div>
                 <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4 class="put-red" style="color: red;">Contact Us</h4>
+                    <h2 style="color: red;">Contact Us</h2>
                     <p class="put-black">Enter your email address and message to reach unto us.</p>
                     <p id="message-box"></p>
                     <form id="subscribe-form">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
                         <textarea type="text" class="form-control" name="message" id="message" placeholder="Message"></textarea>
-                        <input class="text-uppercase form-control" style="background-color: goldenrod; color: red; margin-top: 10px;" type="submit" value="contact us" id="contact-btn">
+                        <input class="btn btn-lg text-uppercase form-control" style="background-color: goldenrod; color: red; margin-top: 10px;" type="submit" value="contact us" id="contact-btn">
                     </form>
                 </div>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

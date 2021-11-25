@@ -53,7 +53,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{ asset('site_images/financial-system.jpeg') }}" class="img-fluid rounded-start" alt="...">
+                        <img src="{{ asset('site_images/financial-system.jpeg') }}" class="img-fluid rounded" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body end-text">
@@ -144,11 +144,11 @@
 
     <!--- about us--->
     <div id="about">
-        <div class="container" style="margin-top: 40px;">
-            <h2 class="text-center put-grey" style="margin: 40px 0;">
+        <div class="container" style="padding-top: 30px;">
+            <h1 class="text-center put-grey">
                 About <strong class="put-red">Us</strong><br>
-                <small>Industrial Artificial Intelligence Backend Platform</small>
-            </h2>
+                <span style="font-size: large;">Industrial Artificial Intelligence Backend Platform</span>
+            </h1>
 
             <p>
                 FirstCode Corporation Inc. is an Integrated Industrial Information Centre for Africa (IIICA)
@@ -167,9 +167,9 @@
 
     <!----multi item carousel/partners--->
     <div class="container text-center mt-4">
-        <h2 class="font-weight-light">
+        <h1 class="font-weight-light">
             <strong class="put-gold">Our</strong> <span style="color: black;">Partners</span>
-        </h2>
+        </h1>
 
         <div class="row mx-auto mt-4 justify-content-center">
             <div id="recipeCarousel" class="carousel slide my-carousel" data-bs-ride="carousel">
@@ -361,10 +361,11 @@
     <!---our team--->
     <!--- about us--->
     <div id="our-team" style="background-color: #f3f0f0">
-        <div class="container" style="margin-top: 40px;">
-            <h2 class="text-center put-grey" style="margin: 40px 0;">
+
+        <div class="container" style=" padding-top: 40px; padding-bottom: 20px;">
+            <h1 class="text-center put-grey">
                 <strong class="put-red">Our</strong> Team
-            </h2>
+            </h1>
             <h3 class="text-center" style="margin: 20px 0;">Advisory Board</h3>
 
             <div class="row text-center">

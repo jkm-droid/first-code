@@ -1,12 +1,13 @@
 a{
     text-decoration: none;
 }
-.carousel .image{
-    max-height: 90vh;
+@media only screen and (min-width: 900px) {
+    .carousel .image {
+        max-height: 90vh;
+    }
 }
-
 .card-body{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .card{
     border: none;
@@ -48,7 +49,7 @@ about{
 
 #about{
     font-size: larger;
-    color: goldenrod;
+    color: white;
     width: 100%;
     position: relative;
     background: url("../site_images/technology-impact-on-life-1024x566.jpg") top center;
@@ -57,8 +58,8 @@ about{
 
 #about:before {
     content: "";
-    /*background: rgba(192, 183, 183, 0.8);*/
-    /*opacity: 0.9;*/
+    background: rgba(238, 234, 234, 0.8);
+    opacity: 0.9;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -83,6 +84,10 @@ about{
     }
     .carousel-inner .my-carousel-item > div:first-child {
         display: block;
+    }
+
+    .card-body{
+        margin-top: 0;
     }
 }
 .image{
@@ -194,10 +199,7 @@ about{
     color: black;
 }
 
-#footer .footer-top h4 {
-    font-size: 16px;
-    /*text-transform: uppercase;*/
-    font-weight: bolder;
+#footer .footer-top h2 {
     color: red;
     position: relative;
     padding-bottom: 12px;
@@ -232,11 +234,11 @@ about{
 }
 
 #footer .footer-top .footer-links ul a {
-    color: goldenrod;
+    font-size: larger;
+    color: black;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
-    text-transform: uppercase;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -249,13 +251,6 @@ about{
     font-size: 15px;
 }
 
-#footer .footer-newsletter h4 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #444444;
-    position: relative;
-    padding-bottom: 12px;
-}
 
 #footer .footer-newsletter form {
     margin-top: 30px;
@@ -267,12 +262,9 @@ about{
     /*border: 1px solid #cde5f6;*/
 }
 
-/*#footer .footer-newsletter form input[type="email"] {*/
-/*    border: 0;*/
-/*    border: 0;*/
-/*    padding: 4px 8px;*/
-/*    width: calc(100% - 100px);*/
-/*}*/
+#message{
+    margin-top: 10px;
+}
 
 /*#footer .footer-newsletter form input[type="submit"] {*/
 /*    position: absolute;*/
