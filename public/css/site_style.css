@@ -52,10 +52,11 @@ about{
 
 #about{
     font-size: larger;
-    color: white;
+    font-weight: bold;
+    color: goldenrod;
     width: 100%;
     position: relative;
-    background: url("../site_images/download.jpeg") top center;
+    background: url("../site_images/industry4.0.jpg") top center;
     background-size: cover;
 }
 
@@ -72,6 +73,13 @@ about{
 
 .img-circle{
     border-radius: 50%;
+}
+@media (min-width: 1024px) {
+    #about {
+        background-attachment: fixed;
+    }
+
+
 }
 
 @media (max-width: 767px) {
