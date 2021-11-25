@@ -5,9 +5,9 @@ a{
     max-height: 90vh;
 }
 @media only screen and (min-width: 900px) {
-    /*.carousel .image {*/
-    /*    max-height: 90vh;*/
-    /*}*/
+    .carousel .image {
+        max-height: 90vh;
+    }
 }
 .card-body{
     margin-top: 20px;
@@ -155,6 +155,10 @@ about{
 
     .carousel-caption h4{
         font-size: large;
+    }
+
+    .carousel .image {
+        max-height: 50vh;
     }
 }
 
