@@ -1,0 +1,345 @@
+a{
+    text-decoration: none;
+}
+.carousel .image{
+    max-height: 90vh;
+}
+
+.card-body{
+    margin-top: 40px;
+}
+.card{
+    border: none;
+}
+.service-separator{
+   color: lightgrey;
+    margin: 60px 0;
+}
+
+.nav-link{
+    color: red;
+}
+.navbar li:hover > a{
+    color: black;
+    font-weight: bolder;
+}
+
+.put-red{
+    color: red;
+}
+.put-grey{
+    color: grey;
+}
+.put-gold{
+    color: goldenrod;
+}
+
+.put-green{
+    color: green;
+}
+
+.put-black{
+    color: black;
+}
+
+about{
+    margin-top: 5px;
+}
+
+#about{
+    font-size: larger;
+    color: goldenrod;
+    width: 100%;
+    position: relative;
+    background: url("../site_images/technology-impact-on-life-1024x566.jpg") top center;
+    background-size: cover;
+}
+
+#about:before {
+    content: "";
+    /*background: rgba(192, 183, 183, 0.8);*/
+    /*opacity: 0.9;*/
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+
+    .service-separator{
+        margin: 0 0;
+    }
+    .portal-image{
+        min-height: auto;
+    }
+    .carousel-inner .my-carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .my-carousel-item > div:first-child {
+        display: block;
+    }
+}
+.image{
+    opacity: 0.6;
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+.carousel-control-next, .carousel-control-prev{
+    font-weight: bolder;
+}
+.carousel-caption {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 60%;
+}
+.carousel-caption h1{
+    color: red;
+    font-weight: bolder;
+    font-family: "Bitstream Vera Serif";
+}
+
+.carousel-caption h4{
+    color: black;
+    font-weight: bolder;
+    font-family: "Bitstream Vera Serif";
+}
+.multi-item-carousel img{
+    height: 150px;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h1{
+        font-size: large;
+    }
+
+    .carousel-caption h4{
+        font-size: large;
+    }
+}
+
+
+.multi-item-carousel .card-img-overlay{
+    color: black;
+}
+
+@media (max-height: 800px) {
+    .service-separator{
+        margin: 0 0;
+    }
+}
+
+#footer {
+    border-top: 2px solid goldenrod;
+    color: black;
+    font-size: 14px;
+    background: goldenrod;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: lightgrey;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 300;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    /*text-transform: uppercase;*/
+    font-weight: bolder;
+    color: red;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: goldenrod;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#footer .footer-newsletter {
+    font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    /*background: #fff;*/
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+    /*border: 1px solid #cde5f6;*/
+}
+
+/*#footer .footer-newsletter form input[type="email"] {*/
+/*    border: 0;*/
+/*    border: 0;*/
+/*    padding: 4px 8px;*/
+/*    width: calc(100% - 100px);*/
+/*}*/
+
+/*#footer .footer-newsletter form input[type="submit"] {*/
+/*    position: absolute;*/
+/*    top: -1px;*/
+/*    right: -2px;*/
+/*    bottom: -1px;*/
+/*    border: 0;*/
+/*    background: none;*/
+/*    font-size: 16px;*/
+/*    padding: 0 20px 2px 20px;*/
+/*    background: #2487ce;*/
+/*    color: #fff;*/
+/*    transition: 0.3s;*/
+/*    border-radius: 0 5px 5px 0;*/
+/*    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+    background: #3194db;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #444444;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: red;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 5px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+.system-image{
+    max-height: 300px;
+}
+
+.systems p{
+    font-size: large;
+}
+#systems-page{
+    margin-top: 100px;
+}
+#systems-page p{
+    /*text-indent: 50px;*/
+    line-height: 1.6;
+    font-size: larger;
+}
+#systems-page li{
+    font-size: larger;
+}
+
+.system-title{
+    padding-bottom: 20px;
+}
