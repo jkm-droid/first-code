@@ -53,10 +53,10 @@ about{
 #about{
     font-size: larger;
     font-weight: bold;
-    color: goldenrod;
+    color: black;
     width: 100%;
     position: relative;
-    background: url("../site_images/industry4.0.jpg") top center;
+    background: url("../site_images/industry4.0.jpeg") top center;
     background-size: cover;
 }
 
