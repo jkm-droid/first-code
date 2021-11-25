@@ -149,9 +149,9 @@ about{
 }
 
 @media only screen and (max-width: 600px) {
-    /*.main-content{*/
-    /*    padding-top: 50px;*/
-    /*}*/
+    .main-content{
+        margin-top: 60px;
+    }
     .carousel-caption h1{
         font-size: large;
     }
