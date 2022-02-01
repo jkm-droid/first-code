@@ -452,8 +452,8 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <img class="img-circle" src="{{ asset('team/Natasha Mugo 2.jpg') }}" alt="" width="140" height="140">
-                    <h2>Natasha Mugo</h2>
+                    <img class="img-circle" src="{{ asset('team/abijah-kabiro.jpeg') }}" alt="" width="140" height="140">
+                    <h2>Abijah Kabiro</h2>
                     <p>Communication Specialist</p>
                 </div>
 
