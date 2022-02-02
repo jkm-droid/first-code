@@ -446,12 +446,6 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <img class="img-circle" src="{{ asset('team/Wamaitha.jpeg') }}" alt="" width="140" height="140">
-                    <h2>E.K Wamaitha</h2>
-                    <p>Finance & Admin.</p>
-                </div>
-
-                <div class="col-lg-4">
                     <img class="img-circle" src="{{ asset('team/abijah-kabiro.jpeg') }}" alt="" width="140" height="140">
                     <h2>Abijah Kabiro</h2>
                     <p>Communication Specialist</p>
